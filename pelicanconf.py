@@ -3,9 +3,9 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Hugo Roussaffa'
-SITENAME = u'blog'
-#SITEURL = 'http://blog.geodatup.fr'
-SITEURL = 'http://localhost:8000'
+SITENAME = u'Blog'
+RETOURSITEURL = 'http://geodatup.fr'
+SITEURL = ''
 PATH = 'content'
 
 TIMEZONE = 'Europe/Paris'
@@ -34,15 +34,14 @@ TAG_CLOUD_STEPS = 4
 TAG_CLOUD_MAX_ITEMS = 100
 
 COVER_IMG_URL = '/../../images/font2.jpg'
-#ROFILE_IMG_URL = '/../../images/yogis_stamp_black_little.jpg'
-
+PROFILE_IMG_URL = 'https://fr.gravatar.com/userimage/111331765/a0bbe389f0389278de338fefc202f0e8.png?size=200'
 TAGLINE = 'Geodatup'
 #FAVICON_URL - Set the favicon image
 DISQUS_SITENAME = "geodatup"
 DISQUS_ON_PAGES = True
 #GOOGLE_ANALYTICS - Set the Google Analytics code (eg. "UA-000000-00")
 #PIWIK_URL and PIWIK_SITE_ID - Set the URL and site-id for Piwik tracking. (Without 'http://')
-MENUITEMS = (('Archives','archives.html'))
+MENUITEMS = (('Archives','archives.html'),)
 
 STATIC_PATHS = ['images']
 
@@ -76,11 +75,11 @@ PDF_GENERATOR = False
 
 
 # Blogroll
-#LINKS = ((,),(,))
+LINKS = (('Site Web','http://geodatup.fr'),)
 
 # Social widget
 SOCIAL = (('map-marker','https://www.openstreetmap.org/node/3322982393#map=10/43.3856/2.1416'),
-		  ('github-square','https://github.com/geodatup'), ('rss-square',FEED_ALL_ATOM))
+		  ('github-square','https://github.com/geodatup'),('rss-square',FEED_ALL_ATOM))
 
 DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
