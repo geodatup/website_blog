@@ -1,3 +1,9 @@
+Title: Mettre en cache ses fonds de carte avec LIZMAP
+Date: 2014-11-24 10:00
+Authors: Hugo Roussaffa
+Summary: Toute la procédure pour mettre en cache des données pour partir sur le terrain avec des propres fonds de carte.
+lang: fr
+
 # Mise en cache des données pour le terrain
 
 

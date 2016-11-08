@@ -1,6 +1,8 @@
 Title: Recréer un cache de tuiles avec Qgis depuis un service WMS
 Date: 2010-12-03 10:20
-
+Authors: Hugo Roussaffa
+Summary: 
+lang: en
 
 # Get image from webservice with PyQgis
 

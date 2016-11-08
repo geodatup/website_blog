@@ -1,0 +1,17 @@
+# commande pour relancer la génération des articles et pelican en dev
+
+~~~
+cd ..
+pelican content --debug
+
+cd output
+python -m pelican.server
+~~~
+
+modif du template : remove and reinstall
+
+
+~~~
+pelican-themes --remove pure-single-yo
+pelican-themes --install ../pure-single-yo
+~~~

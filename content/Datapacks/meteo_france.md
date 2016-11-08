@@ -1,11 +1,10 @@
+Title: Les cartes de météo France
+Date: 2016-11-03 10:20
+Authors: Hugo Roussaffa
+Summary: 
+lang: fr
 
-#Météo France
-
-- demander un compte via email
-
-- générer la clé avec le service suivant :
-[https://donneespubliques.meteofrance.fr/inspire/services/GetAPIKey?username=***&password=***](https://donneespubliques.meteofrance.fr/inspire/services/GetAPIKey?username=***&password=***)
-
+# Météo france
 
 le service renvois une fichier xml du type :
 
