@@ -6,25 +6,33 @@ lang: fr
 
 #Google maps
 
-[https://developers.google.com/maps/web-services/]()
+[https://developers.google.com/maps/web-services](https://developers.google.com/maps/web-services/)
 
 - obtenir une clé
 - Activer une clé > créer un projet > continuer
+- nommer la clé
+- définir les restrictions de la clé
 
+retrouver ses clés :
+[https://console.developers.google.com/apis/credentials](https://console.developers.google.com/apis/credentials)
 
 ##troubleshooting
+
+~~~
 RefererNotAllowedMapError	
 Error	
 The current URL loading the Google Maps JavaScript API has not been added to the list of allowed referrers. Please check the referrer settings of your API key on the Google Developers Console.
 
 See API keys in the Google Developers Console. For more information, see Best practices for securely using API keys.
+~~~
 
 
 
 #Bing
-procedure :
 
-[https://msdn.microsoft.com/en-us/library/ff428642.aspx](bing)
+création d'une clé:
+
+[Bing](https://msdn.microsoft.com/en-us/library/ff428642.aspx)
 
 
 - creer un compte microsoft
@@ -32,19 +40,22 @@ procedure :
 - créer une clé dev/test
 
 
+retrouver sa clé :
+
+[https://www.bingmapsportal.com/](https://www.bingmapsportal.com/)
+
+
 #IGN
 
 Créer un compte sur le site de [l'IGN pro](http://professionnels.ign.fr/)
 
-Créer un contrat d'accès au "geoservices".
+Créer un contrat d'accès aux "geoservices".
 
 Modifier la sécurisation.
 
-définir l'usage de la clé sur QGIS ou IP
+Définir l'usage de la clé sur QGIS , IP ou Refer selon le besoin.
 
-Récupérer la clé. 
-
-Inserer la clé 
+Récupérer la clé.
 
 
 
