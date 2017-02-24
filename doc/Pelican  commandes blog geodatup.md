@@ -1,9 +1,9 @@
 Pelican  commandes blog geodatup 
 
-# commande pour relancer la génération des articles et pelican en dev
+# Relancer la génération des articles et pelican en dev
 
 ~~~
-cd ..
+cd [pelican/path]
 pelican content --debug
 
 cd output
@@ -17,26 +17,31 @@ pelican-themes --remove pure-single-yo
 pelican-themes --install ../pure-single-yo
 ~~~
 
-Déploiement prod
+#Déploiement prod
 
 git clone blog + template + plugins
+
 ~~~
 sudo git clone https://github.com/geodatup/website_blog.git
 sudo git clone https://github.com/yougis/pure-single-yo.git
 sudo git clone git://github.com/getpelican/pelican-plugins.git
 ~~~
+
 dans l'environnement virtuel du website
+
 ~~~
 sudo pip install pelican markdown
 ~~~
 
-Pelican installer theme
+Installer un theme
+
 ~~~
 cd /var/www/webapps/website_blog 
 sudo pelican-themes --install ../pure-single-yo
 ~~~
 
 lancer la génération des pages statics
+
 ~~~
 sudo pelican content --debug
 ~~~
