@@ -46,6 +46,7 @@ lancer la génération des pages statics
 sudo pelican content --debug
 ~~~
 
+#En production
 configurer nginx pour afficher le contenu du blog lors de l'acces url blog.geodatup.fr
 
 ~~~

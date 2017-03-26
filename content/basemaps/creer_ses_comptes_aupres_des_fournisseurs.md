@@ -1,5 +1,7 @@
 Title: Créer ses comptes utilisateurs auprès des fournisseurs de services web cartographiques 
 Date: 2016-11-03 10:20
+Tags: webservices
+Slug: fournisseurs-webservices
 Authors: Hugo Roussaffa
 Summary: Voici les différents fournisseurs de webservices incoutournables ou presque auprès desquels vous allez avoir besoin de créer un compte utilisateur afin d'obtenir un clé d'accès aux webservices.
 lang: fr
