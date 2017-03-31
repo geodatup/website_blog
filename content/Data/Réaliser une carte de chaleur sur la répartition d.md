@@ -7,7 +7,7 @@ Summary: Une démarche pour créer une carte de chaleur à partir des données I
 lang: fr
 
 
-| La création d'une carte statistique peut se faire avec des outils opensources comme QGIS ou R (+rcarto) et bien d'autre.
+> La création d'une carte statistique peut se faire avec des outils opensources comme QGIS ou R (+rcarto) et bien d'autre.
 
 ## Obtenir les données
 
