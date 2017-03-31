@@ -1,6 +1,7 @@
 Title: Mettre en cache ses fonds de carte avec LIZMAP
-Date: 2014-11-24 10:00
+Date: 2017-01-24 10:00
 Authors: Hugo Roussaffa
+tags: SIG, Websig
 Summary: Toute la procédure pour mettre en cache des données pour partir sur le terrain avec des propres fonds de carte.
 lang: fr
 
@@ -123,6 +124,6 @@ chmod 775  /tmp -R
 ~~~
 
 
-le répertoire du cache n'est pas accessible /var/www/websig/lib/jelix-plugins/cache/file/file.cache.php     106
+le répertoire du cache n'est pas accessible ```/var/www/websig/lib/jelix-plugins/cache/file/file.cache.php     106```
 
 
