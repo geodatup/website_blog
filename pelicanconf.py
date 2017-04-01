@@ -39,7 +39,7 @@ TAGLINE = 'Geodatup'
 #FAVICON_URL - Set the favicon image
 DISQUS_SITENAME = "geodatup"
 DISQUS_ON_PAGES = True
-#GOOGLE_ANALYTICS - Set the Google Analytics code (eg. "UA-000000-00")
+GOOGLE_ANALYTICS = 'UA-96092032-1'
 #PIWIK_URL and PIWIK_SITE_ID - Set the URL and site-id for Piwik tracking. (Without 'http://')
 MENUITEMS = (('Archives','archives.html'),)
 
