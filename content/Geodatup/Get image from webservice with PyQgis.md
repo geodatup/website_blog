@@ -1,7 +1,7 @@
 Title: Create cache tiles from OGC webMapservices with QGIS
 Date: 2017-01-03 10:20
 Authors: Hugo Roussaffa
-tags: SIG, GDAL, QGIS, Python
+tags: Geotraitement, SIG, GDAL, QGIS, Python
 Summary: Need to create a cache tile from a webservice ? This is what you are looking for !
 lang: en
 

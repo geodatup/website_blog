@@ -13,8 +13,13 @@ python -m pelican.server
 modif du template : remove and reinstall
 
 ~~~
+cd ..
 pelican-themes --remove pure-single-yo
 pelican-themes --install ../pure-single-yo
+pelican content --debug
+
+cd output
+sudo python -m pelican.server 81
 ~~~
 
 #Déploiement prod
