@@ -1,7 +1,7 @@
 Title: Créer un réseau sous Postgis avec des données OSM
 Date: 2017-01-03 10:00
 Authors: Hugo Roussaffa
-tags: Datapack, Database
+tags: Datapack, OpenStreetMap, PostGIS, Pgrouting, osm2pgrouting
 Summary: De l'installation des briques logicielles de PGroutig à l'intégration des données OSM via OSM2PO
 lang: fr
 

@@ -1,8 +1,8 @@
 Title: Réaliser une carte de chaleur sur la répartition des entreprises et de la démographie française
 Date: 2017-01-03 10:00
 Authors: Hugo Roussaffa
-sidebarimage: /../images/carte-stat-INSEE.jpg
-tags: Cartographie, Statistique,
+sidebarimage: /../..images/carte-stat-INSEE.jpg
+tags: Cartographie, Statistique, INSEE
 Summary: Une démarche pour créer une carte de chaleur à partir des données INSEE.
 lang: fr
 
