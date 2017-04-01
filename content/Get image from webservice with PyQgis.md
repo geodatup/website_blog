@@ -9,7 +9,7 @@ lang: en
 
 Create a layer with a minimum of one feature on your interested area
 
-add the Webservice
+add the Webservice you want to cached.
 
 select the feature layer (change the style or uncheck the layer, but still select!)
 
@@ -116,11 +116,13 @@ for /f %a IN (rouyre_2015.txt) do c:/OSGeo4W64\bin\gdalwarp -of GTiff -co tiled=
 ~~~
 
 make the virtual file
+
 ~~~
 c:/OSGeo4W64/bin/gdalbuildvrt C:\Users\Yogis\Dropbox\developpement\lizmap\data\imagery\rouyre-2015\rouyre_jpg.vrt C:\Users\Yogis\Dropbox\developpement\lizmap\data\imagery\rouyre-2015\warp\*.jpg
 ~~~
 
 translate to tif mosaic
+
 ~~~
 c:/OSGeo4W64\bin\gdal_translate -of Gtiff -co "COMPRESS=LZW" -co "TFW=YES" -co "BIGTIFF=YES" "C:\Users\Yogis\Dropbox\developpement\lizmap\data\imagery\rouyre-2015\rouyre_jpg.vrt" "C:\Users\Yogis\Dropbox\developpement\lizmap\data\imagery\rouyre-2015\rouyre_2015.tiff"
 ~~~
@@ -133,11 +135,13 @@ for /f %a IN (rouyre_cadastre.txt) do c:/OSGeo4W64\bin\gdalwarp -of GTiff -co ti
 ~~~
 
 make the virtual file
+
 ~~~
 c:/OSGeo4W64/bin/gdalbuildvrt C:\Users\Yogis\Documents\GIS_DataBase\cadastre\gouv\Rouyre\rouyre_jpg.vrt C:\Users\Yogis\Documents\GIS_DataBase\cadastre\gouv\Rouyre\warp\*.jpg
 ~~~
 
 translate to tif mosaic
+
 ~~~
  c:/OSGeo4W64\bin\gdal_translate -of Gtiff -co "COMPRESS=LZW" -co "TFW=YES" -co "BIGTIFF=YES" "C:\Users\Yogis\Documents\GIS_DataBase\cadastre\gouv\Rouyre\rouyre_jpg.vrt" "C:\Users\Yogis\Documents\GIS_DataBase\cadastre\gouv\Rouyre\rouyre_cadastre.tiff"
 ~~~

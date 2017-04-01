@@ -5,7 +5,7 @@ tags: Datapack, Database
 Summary: De l'installation des briques logicielles de PGroutig à l'intégration des données OSM via OSM2PO
 lang: fr
 
-##Création d'une base de données réseau sous Postgis
+##Création d'un réseau sous Postgis à partir des routes OpenStreetMap
 
 ###Installer osm2pgrouting
 
@@ -57,7 +57,7 @@ set GISDATA_DIR=C:\Users\Yogis\Documents\GIS_DataBase\OSM-and-OBF\OSM\region_fra
 
 ####Conversion de tous les fichiers osm
 
-ça se fait avec java, on convertis dans un premier temps 
+ça se fait avec java, on convertit dans un premier temps 
 
 ~~~
 java -jar osm2po-core-5.0.0-SR1.jar cmd=c prefix=li %GISDATA_DIR%\limousin-latest.osm.pbf
@@ -72,7 +72,7 @@ puis on fait une fusion de tous les fichiers osm dans un seul dossier
 java -jar osm2po-core-5.0.0-SR1.jar cmd=m prefix=lilopc li p c lo
 ~~~
 
-On créer ensuite un fichier SQL permettant de faire un import dans POSTGIS
+On créé ensuite un fichier SQL permettant de faire un import dans POSTGIS
 
 ~~~
 java -jar osm2po-core-5.0.0-SR1.jar cmd=sp prefix=lilopc
@@ -85,7 +85,7 @@ psql -U postgres -d osmdb -q -f "/media/MediasPartages/OSM-and-OBF/network/lilop
 ~~~
 
 Il faudrais ensuite effectuer des mises à jours régulières de la base (vue que OSM évolu en permanance). Mais je n'ai pas trouvé de solution sexy avec OSM2POSTGRES pour effectuer cela. Ce n'est pas possible pour le moment à moins de tout cracher et relancer. 
-Voir la question sur [gis.stackexchange](http://gis.stackexchange.com/questions/174491/is-it-possible-to-convert-osm2postgres-table-to-pgrouting-with-osm2po)
+Voir la question sur [gis.stackexchange](http://gis.stackexchange.com/questions/174491/is-it-possible-to-convert-osm2postgres-table-to-pgrouting-with-osm2po).
 
 
 

@@ -7,10 +7,10 @@ lang: fr
 
 ## Données Météo france
 
-Je me suis retrouvé confronté à devoir obtenir différentes ressources publiques et gratuites provenant de chez Meteo France. 
-Mon premier reflexe est de consulter les catalogues de données du gouvernement, dont celui de [meteo france](https://donneespubliques.meteofrance.fr) et les 2 principaux français que sont celui de [geocatalogue.fr](l'IGN) et [data.gouv.fr](data.gouv.fr).
+Je me suis confronté à devoir obtenir différentes ressources publiques et gratuites provenant de chez Meteo France. 
+Mon premier réflexe est de consulter les catalogues de données du gouvernement, dont celui de [meteo france](https://donneespubliques.meteofrance.fr) et les 2 principaux français que sont celui de [geocatalogue.fr](l'IGN) et [data.gouv.fr](data.gouv.fr).
 
-Grace au catalogue de meteo France, nous devrions être en mesure de connaitre les différentes ressources disponible, et leur urls d'accès par geoservices (webservices OGC). Mais ce n'est vraiment pas évident. Leur site ne montre pas clairement les urls à utiliser. 
+Grace au catalogue de meteo France, nous devrions être en mesure de connaitre les différentes ressources disponibles, et leurs urls d'accès par geoservices (webservices OGC). Mais ce n'est vraiment pas évident. Leur site ne montre pas clairement les urls à utiliser. 
 
 ## Procédure de Météo france
 
@@ -25,7 +25,7 @@ Lorsque vous consulter leur catalogue de service à partir de cette adresse
 
 [https://donneespubliques.meteofrance.fr/inspire/services/](https://donneespubliques.meteofrance.fr/inspire/services/)
 
-Vous disposer de l'ensemble des services publiés par leur serveur. **Ne cliquez** surtout pas sur un lien car il vous renvera une belle page 404 sur leur site.
+Vous disposez de l'ensemble des services publiés par leur serveur. **Ne cliquez** surtout pas sur un lien car il vous renvera une belle page 404 sur leur site.
 
 [https://donneespubliques.meteofrance.fr/services/**nom_service**](https://donneespubliques.meteofrance.fr/services/**nom_service**)
 
@@ -33,9 +33,7 @@ Il manque simplement le chemin INSPIRE à leur url. Je ne sais pas s'ils le font
 
 Nous noterons que les urls des services doivent être obligatoirement sous cette forme :
 
-~~~
-https://donneespubliques.meteofrance.fr/inspire/services/**nom_service**/?
-~~~ 
+```https://donneespubliques.meteofrance.fr/inspire/services/**nom_service**/? ``` 
 
 Donc copier le nom du service depuis leur url et coller le dans votre url à la place de **nom_service**.
 
@@ -51,7 +49,7 @@ et cette forme pour le WFS :
 request=ListStoredQueries&version=2.0.0&service=WFS&token=__xxx__
 ~~~
 
-Voici en prime quelques exemples d'url toute faite :
+Voici en prime quelques exemples d'url toutes faites :
 
 ~~~
 https://donneespubliques.meteofrance.fr/inspire/services/ArpegeWMS?request=GetCapabilities&service=WMS&version=1.3.0&token=__xxx__
@@ -60,5 +58,3 @@ https://donneespubliques.meteofrance.fr/inspire/services/MF-NWP-HIGHRES-AROME-00
 https://donneespubliques.meteofrance.fr/inspire/services/ArpegeWFS?request=ListStoredQueries&version=2.0.0&service=WFS&token=__xxx__
 ~~~
 
-
-https://donneespubliques.meteofrance.fr/services/CAMS50-SILAM-ANALYSIS-01-EUROPE-WMS?request=GetCapabilities

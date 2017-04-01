@@ -1,7 +1,7 @@
-Title: Utiliser les coordonnées GPS dans Lizmap
+Title: Utiliser ses coordonnées GPS dans Lizmap
 Date: 2017-01-03 10:00
 Authors: Hugo Roussaffa
-tags: GNSS, GPS
+tags: GNSS, GPS, LIZMAP
 Summary: Comment configurer Lizmap pour créer des données à partir de la position connue du GPS.
 lang: fr
 
