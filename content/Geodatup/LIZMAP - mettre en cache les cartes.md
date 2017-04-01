@@ -1,7 +1,7 @@
 Title: Mettre en cache ses fonds de carte avec LIZMAP
 Date: 2017-01-24 10:00
 Authors: Hugo Roussaffa
-tags: SIG, WebSIG, Lizmap, Geopoppy, Cartodroid
+tags: Opensource, SIG, WebSIG, Lizmap, Geopoppy, Cartodroid
 Summary: Toute la procédure pour mettre en cache des données pour partir sur le terrain avec des propres fonds de carte.
 lang: fr
 
