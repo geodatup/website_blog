@@ -1,4 +1,4 @@
-5 megapixels
+Capteur de 5 megapixels
 
 surface capteur : 8,8 x 6,6 = 58,08
 (58,08/5)*10^-6
